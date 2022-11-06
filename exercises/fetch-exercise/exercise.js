@@ -28,4 +28,4 @@ fetch("https://codeyourfuture.herokuapp.com/api/greetings")
       location.reload();
     },1000)
     paragraph.innerText=greeting;
-  });
+  }).catch((error)=>console.log(error));
